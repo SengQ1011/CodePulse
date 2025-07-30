@@ -1,0 +1,43 @@
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $spacing-lg;
+  gap: $spacing-md;
+}
+
+.tabs {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: $shadow-sm;
+}
+
+.tabButton {
+  padding: $spacing-xs $spacing-sm;
+  border: none;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: $transition-base;
+  font-size: $font-base;
+  font-weight: 500;
+
+  &:hover {
+    background: var(--bg-secondary);
+  }
+
+  &.active {
+    background: $gradient-primary;
+    color: white;
+  }
+
+  &:first-child {
+    border-right: 1px solid var(--border);
+  }
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 400px;
+}

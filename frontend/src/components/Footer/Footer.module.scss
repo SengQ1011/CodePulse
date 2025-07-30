@@ -1,0 +1,72 @@
+.footer {
+    background: #1e293b;
+    color: var(--text-tertiary);
+    padding: $spacing-sm;
+}
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-lg;
+    margin: $spacing-lg;
+    
+    .footerSection {
+        flex: 1;
+        min-width: 250px;
+        
+        // 讓第一個區域更寬
+        &:first-child {
+            flex: 2; // 2倍寬度
+        }
+    }
+    
+    @include mobile {
+        flex-direction: column;
+        
+        .footerSection:first-child {
+            flex: 1; // 手機版取消特殊寬度
+        }
+    }
+}
+
+.footerSection {
+    h2, h4 {
+        color: #cbd5e1;
+        margin-bottom: $spacing-xs;
+    }
+    h2{ 
+        font-size: $font-2xl;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        color: var(--text-tertiary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: #60a5fa;
+        }
+    }
+    
+    &:first-child {
+        p {
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+    }
+}
+
+.footerBottom {
+    border-top: 1px solid var(--border);
+    margin-top: $spacing-lg;
+    padding-top: $spacing-sm;
+    text-align: center;
+    color: var(--text-secondary);
+    grid-column: 1 / -1;
+}

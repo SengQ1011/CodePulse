@@ -1,0 +1,119 @@
+.formContent {
+  background: var(--card-bg);
+  padding: $spacing-lg;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border);
+
+  h2 {
+    text-align: center;
+    font-size: $font-2xl;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: $spacing-lg;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+
+  label {
+    font-size: $font-sm;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  input {
+    padding: $spacing-sm $spacing-md;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: $font-base;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    transition: $transition-base;
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    &::placeholder {
+      color: var(--text-tertiary);
+    }
+
+    &.error {
+      border-color: $error-color;
+      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+    }
+  }
+}
+
+.errorMessage {
+  font-size: $font-xs;
+  color: $error-color;
+  margin-top: $spacing-xs;
+}
+
+.checkboxLabel {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: $spacing-xs;
+  font-size: $font-sm !important;
+  color: var(--text-secondary) !important;
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+  }
+}
+
+.submitBtn {
+  background: $gradient-primary;
+  color: white;
+  border: none;
+  padding: $spacing-md;
+  border-radius: 6px;
+  font-size: $font-base;
+  font-weight: 600;
+  cursor: pointer;
+  transition: $transition-base;
+  margin-top: $spacing-sm;
+
+  &:hover {
+    transform: $hover-transform;
+    box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.4);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+.forgotPassword {
+  text-align: center;
+  margin-top: $spacing-sm;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: $font-sm;
+    transition: $transition-base;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

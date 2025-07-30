@@ -1,0 +1,16 @@
+node_modules/
+
+# Frontend
+build/
+.env
+
+# Backend (Python)
+__pycache__/
+venv/
+.venv/
+*.pyc
+*.pyo
+*.log
+
+# Database
+*.sqlite3

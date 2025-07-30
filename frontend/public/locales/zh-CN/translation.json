@@ -1,0 +1,107 @@
+{
+  "welcome": "欢迎来到 CodePulse!",
+  "description": "您的终极程序代码分析工具。",
+  "language_switcher": "语言",
+  "home": "首页",
+  "features": "功能特色",
+  "demo": "在线体验",
+  "docs": "文档",
+  "about": "关于我们",
+  "login": "登录",
+  "register": "注册",
+  
+  "hero": {
+    "title": "CodePulse",
+    "subtitle": "程序执行可视化平台",
+    "description": {
+      "main": "结合静态分析与动态追踪的程序执行可视化平台",
+      "sub": "让程序运作变得一目了然，让学习调试更加高效"
+    },
+    "cta": "立即体验"
+  },
+  
+  "hero_title": "CodePulse",
+  "hero_description": "结合静态分析与动态追踪的程序执行可视化平台\n让程序运作变得一目了然，让学习调试更加高效",
+  "hero_cta": "立即体验",
+  
+  "features_section": {
+    "title": "核心功能",
+    "interactive_flowchart": {
+      "title": "交互式流程图",
+      "description": "将程序执行流程以直观的流程图呈现，支持断点设置与逐步执行，让复杂的程序逻辑一目了然。"
+    },
+    "memory_visualization": {
+      "title": "内存可视化",
+      "description": "实时显示变量状态、内存引用关系，帮助理解 list/dict 传址行为与函数间的数据传递。"
+    },
+    "smart_summary": {
+      "title": "智能程序摘要",
+      "description": "自动分析程序结构，生成清晰的执行摘要与说明，让初学者快速掌握程序运作原理。"
+    },
+    "dynamic_tracking": {
+      "title": "动态追踪技术",
+      "description": "结合 AST 静态分析与 sys.settrace 动态追踪，提供精确的程序执行分析。"
+    },
+    "breakpoint_system": {
+      "title": "断点播放系统",
+      "description": "支持程序执行的暂停、播放、回溯功能，便于深入分析特定程序段落。"
+    },
+    "teaching_interface": {
+      "title": "教学友好界面",
+      "description": "专为教学场景设计，支持师生互动讨论，让程序教学更加生动有效。"
+    }
+  },
+  
+  "demo_section": {
+    "title": "程序执行演示",
+    "subtitle": "体验 CodePulse 如何让程序执行过程变得清晰可见",
+    "current_line": "当前执行行",
+    "analysis": "实时分析",
+    "analysis_text": "当前在第一层循环，i = 0，准备开始冒泡排序的第一轮比较",
+    "cta": "开始使用 CodePulse"
+  },
+  
+  "audience_section": {
+    "title": "适用对象",
+    "beginners": {
+      "title": "程序初学者",
+      "description": "刚开始学习程序设计的小白，想要深入理解程序的执行逻辑与运作方式"
+    },
+    "developers": {
+      "title": "需要调试的工程师",
+      "description": "专业程序开发者，需要更直观的工具来分析和调试复杂的程序逻辑"
+    },
+    "students": {
+      "title": "算法学习者",
+      "description": "正在学习数据结构与算法的学生和工程师，需要可视化工具辅助理解"
+    }
+  },
+  
+  "footer": {
+    "tagline": "将抽象演算法化为视觉故事，让程式设计与除错成为直观且引人入胜的学习旅程。",
+    "resources": {
+      "title": "学习资源",
+      "tutorial": "使用教程",
+      "examples": "示例程序",
+      "faq": "常见问题"
+    },
+    "contact": {
+      "title": "联系我们",
+      "github": "GitHub",
+      "support": "技术支持",
+      "feedback": "意见反馈"
+    },
+    "copyright": "© 2025 CodePulse. 本项目采用 MIT 许可证。| 专为程序学习而设计。"
+  },
+  
+  "tech": {
+    "python": "Python",
+    "javascript": "JavaScript",
+    "react": "React", 
+    "flask": "Flask",
+    "api": "API",
+    "leetcode": "LeetCode",
+    "github": "GitHub",
+    "docker": "Docker"
+  }
+}
