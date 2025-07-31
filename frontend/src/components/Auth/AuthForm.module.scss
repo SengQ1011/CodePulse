@@ -10,7 +10,7 @@
     font-size: $font-2xl;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: $spacing-lg;
+    margin-bottom: $spacing-xs;
   }
 
   form {
@@ -82,7 +82,7 @@
   background: $gradient-primary;
   color: white;
   border: none;
-  padding: $spacing-md;
+  padding: $spacing-sm;
   border-radius: 6px;
   font-size: $font-base;
   font-weight: 600;
